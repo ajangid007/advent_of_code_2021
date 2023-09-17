@@ -31,6 +31,7 @@ def lanternFishCount(days):
 
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/6
     readInput("input.txt")
     days = 256
     count = lanternFishCount(days)
