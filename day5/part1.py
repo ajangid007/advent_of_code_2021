@@ -61,6 +61,7 @@ def Min2OverlappingPoints(board):
 
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/5
     input = readInput("input.txt")
     board = findOverlappingPoint(input)
     print(Min2OverlappingPoints(board))
