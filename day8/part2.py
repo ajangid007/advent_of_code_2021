@@ -68,6 +68,7 @@ class Digits:
 
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/8
     data = readInput('input.txt')
     digits = Digits(data)
     digits.countAll()
