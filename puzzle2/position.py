@@ -14,13 +14,13 @@ def measureDistance(data):
             case 'forward':
                 horizontal += int(item[1])
                 depth += aim * int(item[1])
-                break
+                continue
             case 'up':
                 aim -= int(item[1])
-                break
+                continue
             case 'down':
                 aim += int(item[1])
-                break
+                continue
             case _:
                 raise Exception(f"unknown: {item[0]}")
                 return
