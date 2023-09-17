@@ -2,6 +2,7 @@ import os
 import sys
 from collections import deque
 
+#https://adventofcode.com/2021/day/11
 
 data = []
 lines =  open (os.path.join(sys.path[0],"input.txt"), "r")   
