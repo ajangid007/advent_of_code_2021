@@ -26,6 +26,7 @@ def powerConsumption(data):
 
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/3
     input = readInput("input.txt")
     (gamma, epsilon) =  powerConsumption(input)
     print(gamma, epsilon)

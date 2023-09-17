@@ -54,6 +54,7 @@ def calculateCo2(data):
     
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/3
     input = readInput("input.txt")
     oxygen =  calculateOxygen(input)
     co2 =  calculateCo2(input)

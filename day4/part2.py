@@ -76,5 +76,6 @@ def winningColumns(board):
     return any(columns)
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/4
     readInput('input.txt')
     findWinningBoardLast()

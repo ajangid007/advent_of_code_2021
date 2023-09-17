@@ -14,6 +14,7 @@ def measureSubsequentLargeValue(input):
         max = value
     return count
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/1
     input = readInput("input.txt")
     times =  measureSubsequentLargeValue(input)
     print(times)

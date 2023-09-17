@@ -28,6 +28,7 @@ def measureDistance(data):
             
     
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/2
     input = readInput("input.txt")
     measurement =  measureDistance(input)
     print(measurement)

@@ -11,6 +11,7 @@ def measureSlidingWindow(input):
     print(sums)
 
 if __name__ == '__main__':
+    #https://adventofcode.com/2021/day/1
     input = readInput("input.txt")
     times =  measureSlidingWindow(input)
     print(times)
